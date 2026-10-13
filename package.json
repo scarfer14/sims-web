@@ -1,0 +1,28 @@
+{
+  "name": "sims-web",
+  "version": "1.0.0",
+  "description": "SIMS: The Supermarket Inventory Management System by FORZA",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "build:sql": "node scripts/build-sql.mjs"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.16",
+    "@supabase/supabase-js": "^2.117.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.7",
+    "vitest": "^3.2.7"
+  },
+  "private": true,
+  "type": "module"
+}
