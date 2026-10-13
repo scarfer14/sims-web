@@ -82,7 +82,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .btn.light { background: #fff; color: var(--maroon-800); }
 .btn.sm { padding: 5px 10px; font-size: 13px; border-radius: 8px; }
 .btn.link { background: none; color: var(--red); padding: 4px 6px; }
-.input, select.input, textarea.input { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; background: #fff; }
+.input, select.input, textarea.input { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; background: #fff; color: var(--ink); }
 .input:focus { outline: 2px solid var(--red-soft); border-color: var(--red); }
 .search { max-width: 360px; }
 label.field { display: block; font-size: 13px; font-weight: 600; margin-bottom: 12px; }
